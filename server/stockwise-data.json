@@ -1,0 +1,116 @@
+{
+  "products": [
+    {
+      "manufacturing_date": "",
+      "expiry_date": "",
+      "id": 1,
+      "name": "Wireless Mouse",
+      "sku": "WM001",
+      "category": "Electronics",
+      "price": 599,
+      "quantity": 24,
+      "min_stock": 5,
+      "supplier_id": 1
+    },
+    {
+      "manufacturing_date": "",
+      "expiry_date": "",
+      "id": 2,
+      "name": "USB-C Hub",
+      "sku": "UCH002",
+      "category": "Accessories",
+      "price": 1299,
+      "quantity": 3,
+      "min_stock": 5,
+      "supplier_id": 2
+    },
+    {
+      "manufacturing_date": "",
+      "expiry_date": "",
+      "id": 3,
+      "name": "Notebook A5",
+      "sku": "NB003",
+      "category": "Stationery",
+      "price": 80,
+      "quantity": 42,
+      "min_stock": 10,
+      "supplier_id": 1
+    }
+  ],
+  "movements": [],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "TechSource Supplies",
+      "contact": "9876543210",
+      "email": "sales@techsource.example",
+      "address": "Bengaluru"
+    },
+    {
+      "id": 2,
+      "name": "Digital World",
+      "contact": "9876501234",
+      "email": "orders@digitalworld.example",
+      "address": "Bengaluru"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "order_number": "PO-0001",
+      "supplier_id": 1,
+      "items": [
+        {
+          "product_id": 1,
+          "product_name": "Wireless Mouse",
+          "sku": "WM001",
+          "quantity": 100,
+          "received_quantity": 0,
+          "unit_price": 599,
+          "total": 59900
+        },
+        {
+          "product_id": 2,
+          "product_name": "USB-C Hub",
+          "sku": "UCH002",
+          "quantity": 100,
+          "received_quantity": 0,
+          "unit_price": 1299,
+          "total": 129900
+        }
+      ],
+      "total": 189800,
+      "order_date": "2026-10-30",
+      "expected_delivery": "2026-11-10",
+      "notes": "",
+      "status": "Pending",
+      "created_at": "2026-10-30T18:22:49.047Z",
+      "product_id": null,
+      "product_name": "2 products",
+      "quantity": 200
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Administrator",
+      "email": "admin@stockwise.com",
+      "password": "Admin@123",
+      "role": "Admin"
+    },
+    {
+      "id": 2,
+      "name": "Store Manager",
+      "email": "manager@stockwise.com",
+      "password": "Manager@123",
+      "role": "Manager"
+    },
+    {
+      "id": 3,
+      "name": "Staff Member",
+      "email": "staff@stockwise.com",
+      "password": "Staff@123",
+      "role": "Staff"
+    }
+  ]
+}

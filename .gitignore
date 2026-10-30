@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+server/stockwise.db
+server/stockwise.db-shm
+server/stockwise.db-wal
+.DS_Store
